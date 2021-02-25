@@ -1,5 +1,16 @@
 #eat {
+  padding: 50px;
   width: 50%;
   height: 50%;
   background-color: green;
+}
+.full-container {
+  font-size: 64px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 50px 10px;
+  height: 175px;
+  border-radius: 50%;
+  background-color: white;
 }

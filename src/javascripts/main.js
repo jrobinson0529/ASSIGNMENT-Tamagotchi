@@ -1,7 +1,8 @@
 import '../styles/main.scss';
+import eatBuilder from './components/eatBuilder';
 
 const init = () => {
-  console.warn('connected');
+  eatBuilder();
 };
 
 init();
