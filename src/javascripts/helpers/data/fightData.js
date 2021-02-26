@@ -1,6 +1,4 @@
-const getStrength = () => {
-  const strength = 100;
-  return strength;
-};
+const strength = 100;
+const getStrength = () => strength;
 
 export default getStrength;

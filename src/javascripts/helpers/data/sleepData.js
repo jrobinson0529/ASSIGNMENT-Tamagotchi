@@ -1,6 +1,4 @@
-const getEnergy = () => {
-  const energy = 50;
-  return energy;
-};
+const energy = 50;
+const getEnergy = () => energy;
 
 export default getEnergy;

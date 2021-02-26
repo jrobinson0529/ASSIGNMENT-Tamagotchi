@@ -1,6 +1,5 @@
-const getFull = () => {
-  const full = 100;
-  return full;
-};
+const full = 100;
+
+const getFull = () => full;
 
 export default getFull;

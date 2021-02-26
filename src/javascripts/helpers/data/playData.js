@@ -1,6 +1,4 @@
-const getFun = () => {
-  const fun = 50;
-  return fun;
-};
+const fun = 50;
+const getFun = () => fun;
 
 export default getFun;
