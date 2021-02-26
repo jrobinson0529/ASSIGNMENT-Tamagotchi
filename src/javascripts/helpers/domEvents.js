@@ -8,13 +8,10 @@ const domEvents = () => {
       setEnergy(50);
       sleepBuilder();
     }
-    // if (e.target.id === 'btn-slumber') {
-    //   energy += 60;
-    //   if (energy >= 100) {
-    //     energy = 100;
-    //   }
-    //   getEnergy();
-    // }
+    if (e.target.id === 'btn-slumber') {
+      setEnergy(60);
+      sleepBuilder();
+    }
   });
 };
 
