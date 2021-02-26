@@ -1,6 +1,8 @@
 import eatBuilder from '../components/eatBuilder';
+import playBuilder from '../components/playBuilder';
 import sleepBuilder from '../components/sleepBuilder';
 import { setFull } from './data/eatData';
+import { setFun } from './data/playData';
 import { setEnergy } from './data/sleepData';
 
 const domEvents = () => {
@@ -21,6 +23,14 @@ const domEvents = () => {
     if (e.target.id === 'btn-unhealthy') {
       setFull(-Math.abs(2));
       eatBuilder();
+    }
+    if (e.target.id === 'btn-super-fun') {
+      setFun(50);
+      playBuilder();
+    }
+    if (e.target.id === 'btn-slightly-fun') {
+      setFun(2);
+      playBuilder();
     }
   });
 };
