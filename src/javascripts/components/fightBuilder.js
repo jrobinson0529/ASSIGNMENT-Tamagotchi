@@ -1,4 +1,4 @@
-import getStrength from '../helpers/data/fightData';
+import { getStrength } from '../helpers/data/fightData';
 import printToDom from '../helpers/printToDom';
 
 const fightBuilder = () => {
