@@ -1,4 +1,4 @@
-import getEnergy from '../helpers/data/sleepData';
+import { getEnergy } from '../helpers/data/sleepData';
 import printToDom from '../helpers/printToDom';
 
 const sleepBuilder = () => {
@@ -7,7 +7,7 @@ const sleepBuilder = () => {
                      </div>
                      <div class="body d-flex justify-content-around">
                         <button type="button" class="btn btn-success" id="btn-nap">NAP</button>
-                          <div class="full-container w-25"
+                          <div class="full-container w-25" id="energyContainer">
                             <h2>${getEnergy()}</h2>
                           </div>
                         <button type="button" class="btn btn-success" id="btn-slumber">SLUMBER</button>
