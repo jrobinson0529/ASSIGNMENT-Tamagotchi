@@ -1,4 +1,4 @@
-import getFull from '../helpers/data/eatData';
+import { getFull } from '../helpers/data/eatData';
 import printToDom from '../helpers/printToDom';
 
 const eatBuilder = () => {
@@ -10,7 +10,7 @@ const eatBuilder = () => {
                           <div class="full-container w-25"
                             <h2>${getFull()}</h2>
                           </div>
-                        <button type="button" class="btn btn-danger id="btn-unhealthy">Unhealthy Food</button>
+                        <button type="button" class="btn btn-danger" id="btn-unhealthy">Unhealthy Food</button>
                      </div>`;
   printToDom('#eat', domString);
 };
