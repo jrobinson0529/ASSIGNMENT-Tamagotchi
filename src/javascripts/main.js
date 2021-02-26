@@ -1,8 +1,8 @@
 import '../styles/main.scss';
-import eatBuilder from './components/eatBuilder';
+import appBuilder from './components/appBuilder';
 
 const init = () => {
-  eatBuilder();
+  appBuilder();
 };
 
 init();
