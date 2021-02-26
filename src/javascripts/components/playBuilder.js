@@ -1,4 +1,4 @@
-import getFun from '../helpers/data/playData';
+import { getFun } from '../helpers/data/playData';
 import printToDom from '../helpers/printToDom';
 
 const playBuilder = () => {
@@ -7,7 +7,7 @@ const playBuilder = () => {
                      </div>
                      <div class="body d-flex justify-content-around">
                         <button type="button" class="btn btn-success" id="btn-super-fun">SUPER FUN</button>
-                          <div class="full-container w-25"
+                          <div class="full-container w-25">
                             <h2>${getFun()}</h2>
                           </div>
                         <button type="button" class="btn btn-success" id="btn-slightly-fun">SLIGHTLY FUN</button>
