@@ -1,7 +1,8 @@
 import '../styles/main.scss';
+import appBuilder from './components/appBuilder';
 
 const init = () => {
-  console.warn('connected');
+  appBuilder();
 };
 
 init();
