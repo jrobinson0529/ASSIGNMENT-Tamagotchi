@@ -1,15 +1,16 @@
 import eatBuilder from '../components/eatBuilder';
 import fightBuilder from '../components/fightBuilder';
 import playBuilder from '../components/playBuilder';
+import progressBar from '../components/progressBar';
 import sleepBuilder from '../components/sleepBuilder';
 import { setFull } from './data/eatData';
 import { setStrength } from './data/fightData';
+import getTotalHealth from './data/petData';
 import { setFun } from './data/playData';
 import { setEnergy } from './data/sleepData';
 
 const domEvents = () => {
   document.querySelector('body').addEventListener('click', (e) => {
-    console.warn(e.target.id);
     if (e.target.id === 'btn-nap') {
       setEnergy(50);
       sleepBuilder();
@@ -42,6 +43,8 @@ const domEvents = () => {
       setStrength(-10);
       fightBuilder();
     }
+    getTotalHealth();
+    progressBar();
   });
 };
 
