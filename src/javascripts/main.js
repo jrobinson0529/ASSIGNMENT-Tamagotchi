@@ -1,10 +1,10 @@
 import '../styles/main.scss';
-import appBuilder from './components/appBuilder';
+import petImageForm from './components/petImageForm';
 import domEvents from './helpers/domEvents';
 
 const init = () => {
-  appBuilder();
   domEvents();
+  petImageForm();
 };
 
 init();

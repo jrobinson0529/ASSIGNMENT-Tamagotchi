@@ -1,4 +1,4 @@
-import getTotalHealth from '../helpers/data/petData';
+import { getTotalHealth } from '../helpers/data/petData';
 import printToDom from '../helpers/printToDom';
 
 const progressBar = () => {
