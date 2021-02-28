@@ -1,11 +1,13 @@
+import appBuilder from '../components/appBuilder';
 import eatBuilder from '../components/eatBuilder';
 import fightBuilder from '../components/fightBuilder';
+import printPetsImage from '../components/petImage';
 import playBuilder from '../components/playBuilder';
 import progressBar from '../components/progressBar';
 import sleepBuilder from '../components/sleepBuilder';
 import { setFull } from './data/eatData';
 import { setStrength } from './data/fightData';
-import getTotalHealth from './data/petData';
+import { getTotalHealth, setPetsData } from './data/petData';
 import { setFun } from './data/playData';
 import { setEnergy } from './data/sleepData';
 
@@ -45,6 +47,15 @@ const domEvents = () => {
     }
     getTotalHealth();
     progressBar();
+    if (e.target.type === 'submit') {
+      e.preventDefault();
+      const petImage = document.querySelector('#imageUrl').value;
+
+      setPetsData(petImage);
+      document.querySelectorAll('.quad').innerHTML = '';
+      appBuilder();
+      printPetsImage();
+    }
   });
 };
 

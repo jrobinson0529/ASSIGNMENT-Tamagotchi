@@ -1,4 +1,4 @@
-import getTotalHealth from '../helpers/data/petData';
+import { getTotalHealth } from '../helpers/data/petData';
 import eatBuilder from './eatBuilder';
 import fightBuilder from './fightBuilder';
 import playBuilder from './playBuilder';
