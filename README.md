@@ -28,3 +28,7 @@ This intense survival game features:
 # Video Walkthrough
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/46ed3e539fe14c2f9aea935273aa6295" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+# Contributors
+
+[JesseR.](https://github.com/jrobinson0529/)
