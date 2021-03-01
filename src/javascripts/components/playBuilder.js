@@ -5,6 +5,7 @@ const playBuilder = () => {
   const domString = `<div class="header">
                         <h1>PLAY</h1>
                      </div>
+                     <p>Fun</p>
                      <div class="body d-flex justify-content-around">
                         <button type="button" class="btn btn-success" id="btn-super-fun">SUPER FUN</button>
                           <div class="full-container w-25">

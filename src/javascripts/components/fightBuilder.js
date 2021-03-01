@@ -5,6 +5,7 @@ const fightBuilder = () => {
   const domString = `<div class="header">
                         <h1>FIGHT</h1>
                      </div>
+                     <p>Strength</p>
                      <div class="body d-flex justify-content-around">
                         <button type="button" class="btn btn-success" id="btn-run">RUN</button>
                           <div class="full-container w-25">

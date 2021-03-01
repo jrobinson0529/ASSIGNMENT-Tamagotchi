@@ -25,7 +25,7 @@ body {
   align-self: center;
 }
 .quad {
-  padding: 50px;
+  padding: 25px;
   height: 50%;
   width: 50%;
 }
@@ -68,6 +68,16 @@ h2 {
   margin-left: -125px;
   border: 2px solid blue;
   border-radius: 50%;
+  }
+  h3 {
+    background-color: burlywood;
+    width: 200px;
+    height: auto;
+    margin-top: -50px;
+    margin-left: -100px;
+    position: absolute;
+    top: -100%;
+    left: 50%;
   }
 
 }
