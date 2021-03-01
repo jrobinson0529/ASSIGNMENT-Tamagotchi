@@ -5,6 +5,7 @@ const sleepBuilder = () => {
   const domString = `<div class="header">
                         <h1>SLEEP</h1>
                      </div>
+                     <p>Energy</p>
                      <div class="body d-flex justify-content-around">
                         <button type="button" class="btn btn-success" id="btn-nap">NAP</button>
                           <div class="full-container w-25">
