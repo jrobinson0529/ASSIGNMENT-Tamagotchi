@@ -3,7 +3,7 @@ Hello! Here in this web application that I have made you can relive the glory da
 
 [Here](https://jr-tamagotchi.netlify.app/) is a link to the site where you can play for free now!
 
-![](src\assets\tamagotchi.png)
+![](https://github.com/jrobinson0529/ASSIGNMENT-Tamagotchi/blob/d303498f3af36a4c25c3cb5885cc2cf5ab62e7bc/src/assets/tamagotchi.png)
 ![](https://media.gamestop.com/i/gamestop/11103274/Tamagotchi-Gen-1-Sprinkles?$pdp$)
 
 # Wireframe
@@ -26,9 +26,7 @@ This intense survival game features:
  - A secret death screen should you allow your pet to perish.
 
 # Video Walkthrough
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/46ed3e539fe14c2f9aea935273aa6295" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
+<a href="https://www.loom.com/share/46ed3e539fe14c2f9aea935273aa6295"> <p>Watch Video</p> <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/46ed3e539fe14c2f9aea935273aa6295-with-play.gif"></a>
 # Contributors
 
 [JesseR.](https://github.com/jrobinson0529/)
